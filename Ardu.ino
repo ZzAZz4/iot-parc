@@ -43,6 +43,7 @@ void loop() {
 	for (int i = 0; i < 4; ++i) 
 		ldr_voltages[i] = (float) ldr_va[i] * 5.0f / 1023.0f; 
 	
+	// calculate lums and average lums
 	float ldr_lums[4];
 	float average_lums = 0.f;
 	for (int i = 0; i < 4; ++i) {
@@ -51,12 +52,14 @@ void loop() {
 	}
 	average_lums /= 4.f;
 	
+	// turn the motor on or off
 	if (average_lums >= 60 && !motor_on) {
 		digitalWrite(PIN_MOTOR, HIGH);
 	} else if (average_lums < 60) {
 		digitalWrite(PIN_MOTOR, LOW);
 	}
 	
+        // read the key and print the value
 	char key = kp.getKey();
 	if (key) {
 		Serial.print("LDR elegido: ");
