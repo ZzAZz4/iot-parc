@@ -1,0 +1,63 @@
+<circuit reactStep="50" type="simulide_0.4" Simu_Step_nS="1000" noLinAcc="5" animate="0" Speed_sps="1000000" Speed_per="100">
+
+Unique  Id: Probe-47: 
+Circuit Id: Probe-41
+<item Show_volt="true" circRot="-1.3970757797777617e+306" Threshold="2.5" x="-28" boardPos="-1e+06,-1e+06" valLabely="0" vflip="1" valLabelx="16" labelx="16" labelrot="45" itemtype="Probe" rotation="-45" id="Probe-41" y="-84" Show_id="false" objectName="Probe-47" labely="-16" circPos="0,0" valLabRot="45" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Probe-45: 
+Circuit Id: Probe-41
+<item Show_volt="true" circRot="-1.3970757797777617e+306" Threshold="2.5" x="-4" boardPos="-1e+06,-1e+06" valLabely="0" vflip="1" valLabelx="16" labelx="16" labelrot="45" itemtype="Probe" rotation="-45" id="Probe-41" y="-80" Show_id="false" objectName="Probe-45" labely="-16" circPos="0,0" valLabRot="45" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Probe-43: 
+Circuit Id: Probe-41
+<item Show_volt="true" circRot="-1.3970757797777617e+306" Threshold="2.5" x="12" boardPos="-1e+06,-1e+06" valLabely="0" vflip="1" valLabelx="16" labelx="16" labelrot="45" itemtype="Probe" rotation="-45" id="Probe-41" y="-68" Show_id="false" objectName="Probe-43" labely="-16" circPos="0,0" valLabRot="45" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Probe-41: 
+Circuit Id: Probe-41
+<item Show_volt="true" circRot="-1.3970757797777617e+306" Threshold="2.5" x="16" boardPos="-1e+06,-1e+06" valLabely="0" vflip="1" valLabelx="16" labelx="16" labelrot="45" itemtype="Probe" rotation="-45" id="Probe-41" y="-40" Show_id="false" objectName="Probe-41" labely="-16" circPos="0,0" valLabRot="45" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Node-35: 
+Circuit Id: Node-35
+<item circRot="2e-323" x="-228" boardPos="-1e+06,-1e+06" valLabely="0" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Node" rotation="0" id="Node-35" y="-280" Show_id="false" objectName="Node-35" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: ADC-34: 
+Circuit Id: ADC-34
+<item circRot="0" Vref="10" x="-196" boardPos="-1e+06,-1e+06" valLabely="0" Out_Imped="40" Out_Low_V="0" Num_Bits="4" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="ADC" Out_High_V="5" rotation="0" id="ADC-34" y="-28" Show_id="false" objectName="ADC-34" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: WaveGen-1: 
+Circuit Id: WaveGen-1
+<item circRot="1.3351088249368486e-306" x="-412" Always_On="false" boardPos="-1e+06,-1e+06" valLabely="8" Unit=" V" vflip="1" valLabelx="-16" labelx="-64" labelrot="0" Voltage="10" itemtype="WaveGen" Show_Volt="true" Out="true" rotation="0" id="WaveGen-1" y="-368" Show_id="false" objectName="WaveGen-1" Volt_Base="0" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" Quality="5" hflip="1" Wave_Type="2" Freq="10" Duty_Square="50"/>
+
+Unique  Id: Oscope-2: 
+Circuit Id: Oscope-2
+<item Trigger="4" AutoSC="4" circRot="6.95304969702024e-310" x="-52" Basic_Y="135" hTick="36977551" boardPos="-1e+06,-1e+06" valLabely="0" Basic_X="135" Tracks="1" VolPos="0,0,0,0" vflip="1" Filter="0" valLabelx="0" labelx="-90" labelrot="0" itemtype="Oscope" HideCh="false,false,false,false" rotation="0" id="Oscope-2" Tunnels=",,," TimPos="0,0,0,0" VolDiv="3.011,3.011,3.011,3.011" y="-232" Show_id="false" objectName="Oscope-2" labely="-100" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-3: 
+Circuit Id: Connector-3
+<item circRot="0" x="-396" endpinid="Node-35-0" startpinid="WaveGen-1-outnod" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-37" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="-396,-368,-228,-368,-228,-280" rotation="0" id="Connector-3" y="-368" Show_id="false" objectName="Connector-3" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-36: 
+Circuit Id: Connector-36
+<item circRot="0" x="-228" endpinid="Oscope-2-Pin0" startpinid="Node-35-2" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-37" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="-228,-280,-140,-280" rotation="0" id="Connector-36" y="-280" Show_id="false" objectName="Connector-36" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-37: 
+Circuit Id: Connector-37
+<item circRot="8.900974483561452e-307" x="-228" endpinid="ADC-34-in" startpinid="Node-35-1" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-37" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="-228,-280,-228,-36,-220,-36" rotation="0" id="Connector-37" y="-280" Show_id="false" objectName="Connector-37" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-42: 
+Circuit Id: Connector-42
+<item circRot="0" x="0" endpinid="ADC-34-out0" startpinid="Probe-41-inpin" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-42" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="0,-24,-172,-24,-172,-28" rotation="0" id="Connector-42" y="-24" Show_id="false" objectName="Connector-42" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-44: 
+Circuit Id: Connector-44
+<item circRot="0" x="-4" endpinid="ADC-34-out1" startpinid="Probe-43-inpin" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-44" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="-4,-52,-4,-36,-172,-36" rotation="0" id="Connector-44" y="-52" Show_id="false" objectName="Connector-44" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-46: 
+Circuit Id: Connector-46
+<item circRot="0" x="-20" endpinid="ADC-34-out2" startpinid="Probe-45-inpin" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-46" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="-20,-64,-20,-44,-172,-44" rotation="0" id="Connector-46" y="-64" Show_id="false" objectName="Connector-46" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+
+Unique  Id: Connector-48: 
+Circuit Id: Connector-48
+<item circRot="0" x="-44" endpinid="ADC-34-out3" startpinid="Probe-47-inpin" boardPos="-1e+06,-1e+06" valLabely="0" enodeid="enode-48" vflip="1" valLabelx="0" labelx="-16" labelrot="0" itemtype="Connector" pointList="-44,-68,-44,-52,-172,-52" rotation="0" id="Connector-48" y="-68" Show_id="false" objectName="Connector-48" labely="-24" circPos="0,0" valLabRot="0" mainComp="false" boardRot="-1e+06" hflip="1"/>
+ 
+</circuit>
